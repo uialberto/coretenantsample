@@ -1,4 +1,6 @@
-﻿namespace AppWeb.Models
+﻿using System.Threading.Tasks;
+
+namespace AppWeb.Models
 {
     public interface ITenantStore<T> where T : TenantDto
     {
